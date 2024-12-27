@@ -1,1 +1,2 @@
-# odin-recipes
+# odin-
+This is a simple web project built using basic HTML to showcase a collection of delicious recipes. The project features a clean and minimal design, with separate pages for each recipe, including ingredients, steps, and cooking time.
