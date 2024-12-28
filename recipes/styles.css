@@ -1,0 +1,22 @@
+
+ .pizza{
+    background-color: #FF6347;
+}
+
+ .biriyani{
+    background-color: #DAA520;;
+}
+
+ .noodles {
+    background-color: #F5F5DC; 
+}
+
+.heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-align {
+    display: flex; 
+    justify-content: center; 
+}

@@ -1,0 +1,19 @@
+
+.body {
+    background-color: #F5DEB3; 
+    font-family: Arial, sans-serif;
+    color: #333; 
+}
+
+
+.list-item .item{
+    background-color: lightcoral;
+    text-align: center;
+    color:rgb(239, 232, 30);
+}
+.heading{
+    background-color: aquamarine;
+    text-align: center;
+    color:rgb(27, 36, 203);
+}
+
