@@ -1,4 +1,9 @@
 
+ .body{
+    margin: 20px 50px;
+    font-family: 'Lobster', cursive;
+ }
+ 
  .pizza{
     background-color: #FF6347;
 }
@@ -11,12 +16,81 @@
     background-color: #F5F5DC; 
 }
 
-.heading{
-    font-weight: bold;
+h1{
     text-align: center;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
 }
 
-.image-align {
-    display: flex; 
-    justify-content: center; 
+
+.image-align{
+      text-align: center;
+}
+img{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.caption{
+    text-align: center;
+    border: 2px solid #F5F5DC;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+.info1,.info2{
+    font-family:  'Lobster', cursive;
+    font-size: large;
+}
+
+.info1,.info2{
+    background-color: #F5F5DC;
+    border-radius: 10px;
+}
+
+.ingredients{
+    text-align:center;
+}
+
+.list-ingredients-pizza li:hover{
+    color: red; 
+    background-color: #f0f0f0; 
+    cursor: pointer; 
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.list-ingredients-noodles li:hover {
+    color: #FF9900;
+    background-color: #FFFACD;
+    cursor: pointer;
+    border: 2px solid #FF6347;
+    border-radius: 20px;
+}
+.list-ingredients-biriyani li:hover {
+    color: #8B4513;
+    background-color: #FFE4C4;
+    cursor: pointer;
+    border: 2px solid #D2691E;
+    border-radius: 20px;
+}
+.list-steps-pizza li:hover{
+    color: red; 
+    background-color: #f0f0f0; 
+    cursor: pointer; 
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.list-steps-noodles li:hover {
+    color: #FF9900; 
+    background-color: #FFFACD; 
+    cursor: pointer; 
+    border: 2px solid #FF6347; 
+    border-radius: 20px;
+}
+.list-steps-biriyani li:hover {
+    color: #8B4513; 
+    background-color: #FFE4C4; 
+    cursor: pointer; 
+    border: 2px solid #D2691E; 
+    border-radius: 20px;
 }
