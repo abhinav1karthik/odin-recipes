@@ -1,19 +1,36 @@
 
 .body {
-    background-color: #F5DEB3; 
-    font-family: Arial, sans-serif;
-    color: #333; 
+    background-color: lightcoral; 
+    font-family: fantasy;
 }
 
+ 
+.item{
+    display: inline-block;
+   
+}
 
-.list-item .item{
-    background-color: lightcoral;
+.list{
+    margin:20px auto;
+}
+
+.list .item img{
+    width:auto;
+    height:300px;
+    border: 2px solid red;
+}
+
+ .heading{
     text-align: center;
-    color:rgb(239, 232, 30);
-}
-.heading{
-    background-color: aquamarine;
-    text-align: center;
-    color:rgb(27, 36, 203);
+    color:blue;
 }
 
+.in-block{
+    display: inline-block;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+.div{
+    
+}
